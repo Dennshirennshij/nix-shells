@@ -8,9 +8,11 @@ pkgs.mkShell {
     cargo-generate
 
     usbutils
+    picocom
 
     esp-generate
     espflash
+    probe-rs
 
     avrdude
     ravedude
