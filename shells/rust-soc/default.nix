@@ -14,6 +14,8 @@ pkgs.mkShell {
     espflash
     probe-rs
 
+    python3
+
     avrdude
     ravedude
     pkgsCross.avr.buildPackages.gcc
