@@ -29,7 +29,8 @@ pkgs.mkShell {
   shellHook = ''
     echo "🚀 Development shell for SOCs (RISC-V for ESP32, Arduino) using Rust"
     echo "⬇️ Updating the nightly Rust toolchain"
-    rustup update nightly
+    rustup toolchain remove nightly
+    rustup toolchain install nightly
     export RUSTUP_TOOLCHAIN=nightly
     echo "✅ Updated and applied the nightly toolchain"
 
