@@ -42,6 +42,8 @@ pkgs.mkShell {
     ### For C6 - Chips
     rustup target add riscv32imac-unknown-none-elf
 
+    rustup component add rust-src --toolchain nightly-x86_64-unknown-linux-gnu
+
     ## Arduino
     #rustup target add avr-none
     echo "✅ Added the targets"
