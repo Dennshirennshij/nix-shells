@@ -11,6 +11,7 @@
       devShells.x86_64-linux = {
         rust = import ./shells/rust { inherit pkgs; };
         rust-soc = import ./shells/rust-soc { inherit pkgs; };
+        rust-esp32 = import ./shells/rust-esp32 { inherit pkgs; };
       };
     };
 }
