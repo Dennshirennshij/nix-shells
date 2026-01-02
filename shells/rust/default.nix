@@ -19,6 +19,9 @@ let
     libxkbcommon
     libGL
     fontconfig
+
+    cargo
+    rustc
   ];
   libaryPath = pkgs.lib.makeLibraryPath buildInputs;
 

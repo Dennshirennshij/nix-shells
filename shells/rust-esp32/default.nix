@@ -7,7 +7,7 @@ pkgs.mkShell {
     pkgs.git
     pkgs.cmake
     pkgs.ninja
-    pkgs.dfutool
+    #pkgs.dfutool
     pkgs.python3
     pkgs.python3Packages.pip
     pkgs.openssl
@@ -16,7 +16,7 @@ pkgs.mkShell {
     pkgs.bison
     pkgs.gperf
     pkgs.ccache
-    pkgs.riscv32-elf-gcc  # RISC-V cross compiler
+    #pkgs.riscv32-elf-gcc  # RISC-V cross compiler
     pkgs.cargo
   ];
 
